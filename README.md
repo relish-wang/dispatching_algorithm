@@ -102,7 +102,7 @@ public class FCFS {
 
 **点评**：代码简单。任务执行只需按请求队列的顺序执行即可。
 
-![FCFS](/img/FCFS.png)
+![FCFS](./img/FCFS.png)
 
 ### 1.2 最短寻找楼层时间优先算法（SSTF，Shortest Seek Time First）
 
@@ -173,7 +173,7 @@ public class SSTF {
 
 **点评**: 与FCFS算法相比，SSTF算法会先对请求队列进行排序，每次都会优先处理距离最近的请求。
 
-![SSTF](/img/SSTF.png)
+![SSTF](./img/SSTF.png)
 
 ### 1.3 扫描算法（SCAN）
 
@@ -290,7 +290,7 @@ public class ScanComparator implements Comparator<Task> {
 }
 ```
 
-![SCAN](/img/SCAN.png)
+![SCAN](./img/SCAN.png)
 
 ### 总结
 
